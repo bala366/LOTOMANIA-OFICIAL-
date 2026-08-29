@@ -1,0 +1,21 @@
+LOTOMANIA ENGROSSANDO O TALO V4 - PARIDADE PYDROID
+
+A V3 anterior reescrevia a busca em Java.
+Isso alterava o gerador aleatório e podia dar outro jogo.
+
+A V4 executa o próprio Python dentro do APK usando Chaquopy.
+
+SUBIR NO GITHUB:
+1. Crie repositório novo/vazio ou substitua o projeto antigo.
+2. Suba TODOS os arquivos deste ZIP.
+3. Não crie main.yml.
+4. O workflow correto já está em:
+   .github/workflows/build-apk.yml
+5. Actions -> Compilar APK Lotomania Talo V4 Paridade Pydroid
+6. Run workflow
+7. Baixe:
+   LOTOMANIA-TALO-V4-PARIDADE-PYDROID-APK
+
+O PDF pinta de verde SOMENTE as dezenas que o motor Python devolveu
+como o MELHOR JOGO DE 50. Portanto a pintura e a linha de texto usam
+a mesma lista de 50 dezenas.
